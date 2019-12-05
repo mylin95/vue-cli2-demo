@@ -6,6 +6,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import axios from 'axios'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
@@ -15,6 +16,8 @@ import echarts from 'echarts'
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts
+
+require('./mock')
 
 /* eslint-disable no-new */
 new Vue({
