@@ -1,0 +1,9 @@
+1.js中引入vue组件
+    import App from './App'
+2.@字符
+3.css引入样式
+@import  Index from './components/Index'
+scope: 当前的样式只应用在本组件（vue是单页面应用，样式是复用的）
+4.vue全家桶：vue-cli、vue-router、vuex、axios
+5.ElementUI的组件里的属性，在下方有详细的属性说明
+6.一个路由只能用一个<router-view/>, 例如首页和右侧页，首页路由有效，右侧页无效
